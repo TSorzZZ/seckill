@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfbd8b27-5a4e-4407-ba13-8b8947b2bf01" name="Changes" comment="1.0 with SuccessKilled" />
+    <list default="true" id="cfbd8b27-5a4e-4407-ba13-8b8947b2bf01" name="Changes" comment="1.0 with SuccessKilled">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/dao/SeckillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/dao/SuccessKilledMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/dao/cache/RedisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/dto/Exposer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/dto/SeckillExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/enums/SeckillStatEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/exception/RepeatKillException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/exception/SeckillCloseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/exception/SeckillException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/service/SeckillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tang/service/interfaces/SeckillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tang/dao/SeckillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tang/dao/SuccessKilledMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tang/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tang/spring/applicationContext-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tang/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tang/dao/SeckillMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tang/dao/SuccessKilledMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tang/service/SeckillServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tang/Entity/Seckill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tang/entity/Seckill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tang/Entity/SuccessKilled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tang/entity/SuccessKilled.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +53,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Dhzws0ig9wYbTKmb0jgZFpGIin" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -35,9 +65,219 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_opened_file_path": "D:/Coding/WorkSpace/kill/src/main/java/com/tang/dao",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Console",
+    "spring.configuration.checksum": "534735884d341071762ede7af01c53e8"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\WorkSpace\kill\src\main\java\com\tang\dao" />
+      <recent name="D:\Coding\WorkSpace\kill\src\test\java\com\tang\service" />
+      <recent name="D:\Coding\WorkSpace\kill\src\main\java\com\tang\enums" />
+      <recent name="D:\Coding\WorkSpace\kill\src\main\java\com\tang\exception" />
+      <recent name="D:\Coding\WorkSpace\kill\src\main\java\com\tang\dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\WorkSpace\kill\src\main\resources\com\tang\dao" />
+      <recent name="D:\Coding\WorkSpace\kill\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SeckillServiceImplTest.executeSeckill">
+    <configuration name="SeckillServiceImplTest.executeSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="executeSeckill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillServiceImplTest.exportSeckillUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="exportSeckillUrl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillServiceImplTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillServiceImplTest.getSeckillList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="getSeckillList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuccessKilledMapperTest.queryByIdWithSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.dao.SuccessKilledMapperTest" />
+      <option name="METHOD_NAME" value="queryByIdWithSeckill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="kill:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/kill_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f9430cd1-e112-465a-a980-12c042773f45" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50497" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="kill:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
+      <item itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
+      <item itemvalue="JUnit.SeckillServiceImplTest.getById" />
+      <item itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
+      <item itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.65" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
+        <item itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
+        <item itemvalue="JUnit.SeckillServiceImplTest.getById" />
+        <item itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
+        <item itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +286,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661166347212</updated>
-      <workItem from="1661166348582" duration="1067000" />
+      <workItem from="1661166348582" duration="5729000" />
+      <workItem from="1661182328205" duration="5172000" />
     </task>
     <task id="LOCAL-00001" summary="1.0 with SuccessKilled">
       <created>1661166802443</created>
@@ -55,7 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661166802444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.0 with SuccessKilled">
+      <created>1661178252826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661178252826</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.0 with SuccessKilled">
+      <created>1661178429466</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661178429466</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +330,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0 with SuccessKilled" />
     <option name="LAST_COMMIT_MESSAGE" value="1.0 with SuccessKilled" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
